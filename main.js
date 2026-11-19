@@ -31,7 +31,7 @@ function tableCreator(patrons){
   
     name.textContent = patrons.name;
 
-    if (patrons.premium = "true") 
+    if (patrons.premium == true) 
     {
         premium.textContent = "✅"
     }
